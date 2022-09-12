@@ -15,9 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         btnClickMe.setOnClickListener {
             btnClickMe.text = "Haha"
-            textView.text = "Hello World"
-
+            textView.text = "AHAHAHA"
         }
-
     }
 }
