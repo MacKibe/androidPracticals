@@ -15,9 +15,8 @@ class MainActivity : AppCompatActivity() {
         var countNumber = 0
 
         mybtnCounter.setOnClickListener {
-            countNumber += 1
+            countNumber = countNumber + 1
             txtDisplay.text = countNumber.toString()
-
         }
     }
 }
