@@ -28,22 +28,22 @@ class MainActivity : AppCompatActivity() {
         // set the screen view of our application which is activity_main in layout folder
         setContentView(R.layout.activity_main)
         //
-        // assigning a variable to button view id
+        // Assign a variable to button view id
         val mybtnCounter = findViewById<Button>(R.id.btnCounter)
         //
-        // assigning a variables to button view id
+        // Assign a variable to text view id
         val txtDisplay = findViewById<TextView>(R.id.countDisplayer)
         //
         // assigned a variable countNumber a value of 0
         var countNumber = 0
         //
-        // added an event listener when button is tapped
+        // Add an event listener to the mybtnCounter button to take action when the button is tapped
         mybtnCounter.setOnClickListener {
             //
-            // increases the countNumber value when the user taps the button
+            // Increase the countNumber value by 1
             countNumber = countNumber + 1
             //
-            // displays the final value
+            // Display the countNumber value in a text box
             txtDisplay.text = countNumber.toString()
         }
     }

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--This is the Blutooth ON Button-->
+
+    <!--This is the Blutooth Off Button-->
+
+    <Button
+        android:id="@+id/bluetoothBtnOFF"
+        android:layout_width="149dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="136dp"
+        android:text="Turn Bluetooth Off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toEndOf="@+id/bluetoothBtnOn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bluetoothBtnOn"
+        android:layout_width="149dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="136dp"
+        android:text="Turn Bluetooth On"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bluetoothBtnDiscover"
+        android:layout_width="310dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="20dp"
+        android:text="Discover Other Devices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bluetoothBtnOFF" />
+
+    <!--This is the Blutooth Discover Other Devices Button-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
