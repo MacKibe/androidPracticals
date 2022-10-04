@@ -41,6 +41,9 @@ class MainActivity : AppCompatActivity() {
         // Get multiplicationBtn id and assign variable of divBtn.
         val subtractBtn = findViewById<Button>(R.id.subtractionBtn)
         //
+        // Get calcBtn id and assign variable of calculateBtn.
+        val calculateBtn = findViewById<Button>(R.id.calcBtn)
+        //
         // Get editText1 id and assign variable of num1.
         val num1 = findViewById<EditText>(R.id.editText1)
         //
@@ -115,5 +118,20 @@ class MainActivity : AppCompatActivity() {
             // Display the multiplication of values A and B
             subtractResults.text = div.toString()
         }
+        /*
+        //
+        // Add an event listener to the subtractBtn button to take action when the button is tapped.
+        calculateBtn.setOnClickListener {
+            //
+            // Convert the two values from text to numbers so that we can do calculations.
+            val numA = num1.text.toString().toInt()
+            val numB = num2.text.toString().toInt()
+            //
+            // multiply the two values
+            val div = numA - numB
+            //
+            // Display the multiplication of values A and B
+            subtractResults.text = div.toString()
+        }*/
     }
 }
