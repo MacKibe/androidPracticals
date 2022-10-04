@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         // Display the Calculator screen.
         setContentView(R.layout.activity_main)
         //
-<<<<<<< HEAD
         // Getting the EditText element and giving a variable of numA
         val numA = findViewById<EditText>(R.id.valueOfA)
         //
@@ -54,7 +53,6 @@ class MainActivity : AppCompatActivity() {
             //
             // Set the answer TextView text property to the result gotten
             addResDisplay.text = sum.toString()
-=======
         // Get addButton id and assign variable of addBtn.
         val addBtn = findViewById<Button>(R.id.addButton)
         //
@@ -119,7 +117,6 @@ class MainActivity : AppCompatActivity() {
             //
             // Display the multiplication of values A and B
             subtractResults.text = sub.toString()
->>>>>>> oneButton
         }
     }
 }
