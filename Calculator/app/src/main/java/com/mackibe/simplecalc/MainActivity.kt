@@ -18,15 +18,31 @@ class MainActivity : AppCompatActivity() {
         //
         // Set the main screen
         setContentView(R.layout.activity_main)
-
-        val addButton = findViewById<Button>(R.id.addButton)
-        val editText1 = findViewById<EditText>(R.id.editText1)
-        val editText2 = findViewById<EditText>(R.id.editText2)
-        val resultTextView = findViewById<TextView>(R.id.resultTextView)
-
-        addButton.setOnClickListener {
-            val result = editText1.text.toString() + editText2.text.toString()
-            resultTextView.text = result
+        //
+        // Getting the EditText element and giving a variable of numA
+        val numA = findViewById<EditText>(R.id.valueOfA)
+        //
+        // Getting the EditText element and giving a variable of numB
+        val numB = findViewById<EditText>(R.id.valueOfB)
+        //
+        // Getting the TextView element and giving a variable of addREsDisplay
+        val addResDisplay = findViewById<TextView>(R.id.additionResults)
+        //
+        // Getting the Button element and giving a variable of addBtn
+        val addBtn = findViewById<Button>(R.id.addButton)
+        //
+        // Listener to implement addition functionality when the button is tapped
+        addBtn.setOnClickListener {
+            //
+            // Get values from the EditText and converting them to integers before adding
+            var num1 = numA.text.toString().toInt()
+            var num2 = numB.text.toString().toInt()
+            //
+            // Getting the sum of the two numbers
+            var sum = num1 + num2
+            //
+            // Set the answer TextView text property to the result gotten
+            addResDisplay.text = sum.toString()
         }
     }
 
