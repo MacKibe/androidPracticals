@@ -11,14 +11,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-<<<<<<< HEAD
-        android:text="B:"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.33"
-        app:layout_constraintStart_toEndOf="@+id/valueOfA"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-=======
         android:text="A / B"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -166,39 +158,11 @@
         app:layout_constraintHorizontal_bias="0.244"
         app:layout_constraintStart_toEndOf="@+id/divideBtn"
         app:layout_constraintTop_toBottomOf="@+id/addResult" />
->>>>>>> oneButton
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:layout_marginTop="56dp"
-        android:text="A + B"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.332"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <EditText
-        android:id="@+id/valueOfA"
-        android:layout_width="50dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="32dp"
-        android:hint="A"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.078"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <Button
-        android:id="@+id/addButton"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="48dp"
-=======
         android:layout_marginTop="48dp"
         android:text="A * B"
         android:textSize="30sp"
@@ -212,72 +176,9 @@
         android:layout_width="50sp"
         android:layout_height="50sp"
         android:layout_marginTop="32dp"
->>>>>>> oneButton
         android:text="="
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintHorizontal_bias="0.094"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/valueOfA" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
-        android:text="Enter Values A and B."
-        android:textSize="17dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.346"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="A:"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <TextView
-        android:id="@+id/additionResults"
-        android:layout_width="60dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="48dp"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.299"
-        app:layout_constraintStart_toEndOf="@+id/addButton"
-        app:layout_constraintTop_toBottomOf="@+id/valueOfB" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        tools:layout_editor_absoluteX="411dp"
-        tools:layout_editor_absoluteY="363dp" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        tools:layout_editor_absoluteX="411dp"
-        tools:layout_editor_absoluteY="435dp" />
-
-    <EditText
-        android:id="@+id/valueOfB"
-        android:layout_width="50dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="32dp"
-=======
         app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/divideBtn" />
@@ -287,15 +188,9 @@
         android:layout_width="60sp"
         android:layout_height="40sp"
         android:layout_marginTop="44dp"
->>>>>>> oneButton
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintHorizontal_bias="0.279"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-=======
         app:layout_constraintHorizontal_bias="0.244"
         app:layout_constraintStart_toEndOf="@+id/multiplicationBtn"
         app:layout_constraintTop_toBottomOf="@+id/divideResult" />
@@ -347,6 +242,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subtractionBtn"
         app:layout_constraintVertical_bias="0.31" />
->>>>>>> oneButton
 
 </androidx.constraintlayout.widget.ConstraintLayout>
