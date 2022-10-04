@@ -62,8 +62,8 @@ class MainActivity : AppCompatActivity() {
         // Get divideResult id and assign variable of divResults.
         val subtractResults = findViewById<TextView>(R.id.subtractionResults)
         //
-        // Add an event listener to the addBtn button to add number A and B when the button is tapped.
-        addBtn.setOnClickListener {
+        // Add an event listener to the subtractBtn button to take action when the button is tapped.
+        calculateBtn.setOnClickListener {
             //
             // Convert the two values from text to numbers so that we can do calculations.
             val numA = num1.text.toString().toInt()
@@ -75,63 +75,24 @@ class MainActivity : AppCompatActivity() {
             // Display the Addition results of values A and B.
             // Remember to convert the numeric sum to text for display.
             additionResults.text = sum.toString()
-        }
-        //
-        // Add an event listener to the divBtn button to take action when the button is tapped.
-        divBtn.setOnClickListener {
-            //
-            // Convert the two values from text to numbers so that we can do calculations.
-            val numA = num1.text.toString().toInt()
-            val numB = num2.text.toString().toInt()
             //
             // Divide the two values
             val div = numA / numB
             //
             // Display the division of values A and B
             divResults.text = div.toString()
-        }
-        //
-        // Add an event listener to the multiplyBtn button to take action when the button is tapped.
-        multiplyBtn.setOnClickListener {
-            //
-            // Convert the two values from text to numbers so that we can do calculations.
-            val numA = num1.text.toString().toInt()
-            val numB = num2.text.toString().toInt()
             //
             // multiply the two values
-            val div = numA * numB
+            val multi = numA * numB
             //
             // Display the multiplication of values A and B
-            multiResults.text = div.toString()
-        }
-        //
-        // Add an event listener to the subtractBtn button to take action when the button is tapped.
-        subtractBtn.setOnClickListener {
-            //
-            // Convert the two values from text to numbers so that we can do calculations.
-            val numA = num1.text.toString().toInt()
-            val numB = num2.text.toString().toInt()
+            multiResults.text = multi.toString()
             //
             // multiply the two values
-            val div = numA - numB
+            val sub = numA - numB
             //
             // Display the multiplication of values A and B
-            subtractResults.text = div.toString()
+            subtractResults.text = sub.toString()
         }
-        /*
-        //
-        // Add an event listener to the subtractBtn button to take action when the button is tapped.
-        calculateBtn.setOnClickListener {
-            //
-            // Convert the two values from text to numbers so that we can do calculations.
-            val numA = num1.text.toString().toInt()
-            val numB = num2.text.toString().toInt()
-            //
-            // multiply the two values
-            val div = numA - numB
-            //
-            // Display the multiplication of values A and B
-            subtractResults.text = div.toString()
-        }*/
     }
 }
