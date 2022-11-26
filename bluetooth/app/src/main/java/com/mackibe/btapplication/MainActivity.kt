@@ -21,19 +21,5 @@ class MainActivity : AppCompatActivity() {
         // setting our main screen
         setContentView(R.layout.activity_main)
 
-        //
-        // create a buttons for turning on the bluetooth
-
-        //
-        // create a buttons for turning off the bluetooth
-
-        //
-        // create a button for discovering new device
-
-        //
-        // a button to show paired devices
-
-        //
-        // send a message to the paired device
     }
 }
